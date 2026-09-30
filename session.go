@@ -36,7 +36,7 @@ const (
 // inboundDecoders returns the decode table for the direction this role
 // receives from: a remote server sends us server→client packets; a remote
 // client sends us client→server packets.
-func (r role) inboundDecoders() map[string]decoder {
+func (r role) inboundDecoders() map[string]Decoder {
 	if r == roleServer {
 		return s2cDecoders
 	}
