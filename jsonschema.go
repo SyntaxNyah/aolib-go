@@ -19,7 +19,7 @@ package aolib
 // JSON-schema enforcement for the MS (in-character) packet.
 //
 // The schemas live in the repository's top-level schemas/ folder (vendored
-// from https://github.com/OmniTroid/aolib-schemas). MSRequest.schema.json
+// from https://github.com/AO-Underground/aolib/tree/main/spec). MSRequest.schema.json
 // describes the client→server MS object; MSBroadcast.schema.json describes the
 // server→client form. They encode the AO2 "no type nonsense" contract: char_id
 // is a number, realization is a boolean, offset is an {x,y} object, the side is

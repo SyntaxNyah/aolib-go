@@ -2,7 +2,7 @@ package aolib
 
 import _ "embed"
 
-// The MS schemas are vendored from OmniTroid/aolib-meta and embedded here so
+// The MS schemas are vendored from AO-Underground/aolib/spec and embedded here so
 // JSON-mode MS validation works out of the box without the caller shipping
 // schema files separately.
 

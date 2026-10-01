@@ -1,7 +1,7 @@
 package aolib
 
 // This file holds the public extension API. The library strictly models
-// canonical aolib-meta; servers that need nonstandard packets (or nonstandard
+// canonical spec; servers that need nonstandard packets (or nonstandard
 // parsing of a standard header) register them here instead of editing the
 // generated registry.
 
